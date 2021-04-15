@@ -1,0 +1,25 @@
+.container {
+  padding: 0 20rpx;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.info {
+  width: 690rpx;
+  padding: 10rpx;
+  font-size: 22rpx;
+  color: gray;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.divide-line {
+  height: 0;
+  border-top: 2rpx solid #eee;
+  width: 670rpx;
+  margin: 20rpx;
+}
+
+button {
+  font-size: 24rpx;
+}

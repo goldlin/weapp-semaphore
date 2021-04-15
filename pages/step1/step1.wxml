@@ -1,0 +1,16 @@
+<view class="container">
+  <button type="primary" bindtap="onTap">Go Step 2</button>
+  <view class="divide-line"></view>
+  <button type="primary" bindtap="addSelfSem" data-flag="flag1">Add Self Semaphore: flag1</button>
+  <button type="secondary" bindtap="addSem" data-flag="flag1">Add Semaphore: flag1</button>
+  <button type="primary" bindtap="addSelfSem" data-flag="flag2">Add Self Semaphore: flag2</button>
+  <button type="secondary" bindtap="addSem" data-flag="flag2">Add Semaphore: flag2</button>
+  <button type="primary" bindtap="useSem" data-flag="flag1">Consume Semaphore: flag1</button>
+  <button type="secondary" bindtap="delSem" data-flag="flag1">Remove Semaphore: flag1</button>
+  <button type="primary" bindtap="useSem" data-flag="flag2">Consume Semaphore: flag2</button>
+  <button type="secondary" bindtap="delSem" data-flag="flag2">Remove Semaphore: flag2</button>
+  <view class="title">Current Page Semaphore</view>
+  <view class="info">{{info}}</view>
+  <view class="title">Global Semaphore</view>
+  <view class="info">{{infoApp}}</view>
+</view>
